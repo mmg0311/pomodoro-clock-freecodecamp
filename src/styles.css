@@ -1,4 +1,67 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background: gray;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-top: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.time {
+  margin: 40px;
+  border: 1px solid greenyellow;
+  background: lightgray;
+}
+
+#timer-label {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px;
+}
+
+#time-left {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.sym {
+  padding: 0px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sym:hover {
+  border: 1px solid green;
+  background: lightblue;
+}
+
+.box {
+  width: 50%;
+  height: 60px;
+}
+
+.content {
+  padding: 0px 10px;
+}
+
+button {
+  padding: 0px 20px;
+  height: 30px;
+  width: 100px;
+  background: lightcoral;
+  border: 0px;
+}
+
+button:hover {
+  background: limegreen;
 }
